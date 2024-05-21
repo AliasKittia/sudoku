@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="instructions">
+                <h2>Sudoku Játék</h2>
+                <p>Írd be a számokat 1-től 9-ig az üres mezőkbe úgy, hogy minden sorban, oszlopban és 3x3-as blokkban minden szám csak egyszer szerepeljen. Kattints az "Ellenőrzés" gombra az ellenőrzéshez!</p>
+            </div>
+            <div class="sudoku-container">
+                <table id="sudoku-board">
+                    
+                </table>
+                <button onclick="resetBoard()">Alaphelyzetbe állítás</button>
+
+                <button onclick="checkSudoku()">Ellenőrzés</button>
+            </div>
+            <div id="message"></div>
+        </div>
+    <script src="sudoko.js"></script>
+</body>
+</html>
